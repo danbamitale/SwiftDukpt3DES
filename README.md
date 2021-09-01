@@ -1,6 +1,8 @@
 # SwiftDukpt3DES
 A 3DES DUKPT Swift implementation 
 
+!! Need to add '#include <CommonCrypto/CommonCryptor.h>' to your bridging header
+
 ## Usage
 
 ```
