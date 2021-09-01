@@ -20,7 +20,7 @@ func testPinBlockEncryption() throws {
     let ksn = "..................."
     
     let dukpt = SwiftDukpt(BDK: bdk, KSN: ksn)
-    let clearPinblock =  dukpt.encryptPinblock("0412346E7ECA8677".dataFromHexString()!)!
+    let clearPinblock =  dukpt.encryptPinblock(".........".dataFromHexString()!)!
     print(clearPinblock.hexEncodedString())
 }
 
